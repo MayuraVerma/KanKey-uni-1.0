@@ -1,0 +1,97 @@
+[Project]
+FileName=D:\maruthi\KuvempuEXE\GUI.dev
+Name=GUI
+Ver=1
+IsCpp=1
+Type=0
+Compiler=-D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_WINDOWS -D_AFXDLL -D_MBCS 
+CppCompiler=-D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_WINDOWS -D_AFXDLL -D_MBCS 
+Includes=
+Linker=
+Libs=
+UnitCount=12
+Folders="Source Files","Header Files","Resource Files"
+[Unit1]
+FileName=./GUI.cpp
+Folder="Source Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit2]
+FileName=./GUI.rc
+Folder="Source Files"
+Compile=1
+CompileCpp=1
+Link=0
+Priority=1000
+[Unit3]
+FileName=./GUIDlg.cpp
+Folder="Source Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit4]
+FileName=./StdAfx.cpp
+Folder="Source Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit5]
+FileName=./GUI.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit6]
+FileName=./GUIDlg.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit7]
+FileName=./Resource.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit8]
+FileName=./StdAfx.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit9]
+FileName=./res/GUI.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit10]
+FileName=./res/GUI.rc2
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit11]
+FileName=./res/Keybrd02.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit12]
+FileName=./ReadMe.txt
+Folder=
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="testconv">
+</Property><Property Name="Solution File" Value="H:\KKT_SRC_UNICODE\Support Files\SampleConv\testconv.sln">
+</Property><Property Name="Date" Value="Tuesday, September 08, 2009">
+</Property><Property Name="Time" Value="22:36:28 PM">
+</Property></Properties><Event ErrorLevel="2" Project="H:\KKT_SRC_UNICODE\Support Files\SampleConv\testconv.mak" Source="testconv" Description="Cannot load the project due to a corrupt project file.">
+</Event><Event ErrorLevel="2" Project="testconv" Source="testconv.mak" Description="Project upgrade failed.">
+</Event><Event ErrorLevel="3" Project="testconv" Source="testconv.mak" Description="Not Converted">
+</Event></UpgradeLog>

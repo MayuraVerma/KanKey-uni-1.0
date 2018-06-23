@@ -1,0 +1,14 @@
+# Microsoft Developer Studio Generated Dependency File, included by KanUniOT.mak
+
+.\KanUniOT.cpp : \
+	".\KanUniOT.h"\
+	".\StdAfx.h"\
+	
+
+.\KanUniOT.rc : \
+	".\res\KanUniOT.rc2"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

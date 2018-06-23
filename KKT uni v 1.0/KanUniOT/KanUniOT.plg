@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: KanUniOT - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPAF.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /FR"Debug/" /Fp"Debug/KanBrail.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\KKT_SRC_UNICODE\KanUniOT\KanUniOT.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPAF.tmp" 
+Creating temporary file "D:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPB0.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /FR"Debug/" /Fp"Debug/KanBrail.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\KKT_SRC_UNICODE\KanUniOT\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPB0.tmp" 
+Creating temporary file "D:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPB1.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"..\output/KanUniOT.pdb" /debug /machine:I386 /def:".\KanUniOT.def" /out:"..\output/KanUniOT.dll" /implib:"..\output/KanUniOT.lib" /pdbtype:sept 
+.\Debug\KanUniOT.obj
+.\Debug\StdAfx.obj
+.\Debug\KanUniOT.res
+]
+Creating command line "link.exe @D:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPB1.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+KanUniOT.cpp
+H:\KKT_SRC_UNICODE\KanUniOT\KanUniOT.cpp(227) : warning C4101: 'scanCode' : unreferenced local variable
+H:\KKT_SRC_UNICODE\KanUniOT\KanUniOT.cpp(228) : warning C4101: 'lParam1' : unreferenced local variable
+H:\KKT_SRC_UNICODE\KanUniOT\KanUniOT.cpp(291) : warning C4715: 'kbdHookProc' : not all control paths return a value
+Linking...
+   Creating library ..\output/KanUniOT.lib and object ..\output/KanUniOT.exp
+
+
+
+<h3>Results</h3>
+KanUniOT.dll - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>

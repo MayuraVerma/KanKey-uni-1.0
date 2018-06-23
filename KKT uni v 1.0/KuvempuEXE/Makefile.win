@@ -1,0 +1,39 @@
+# Project: GUI
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = GUI_private.res
+OBJ  = GUI.o GUIDlg.o StdAfx.o $(RES)
+LINKOBJ  = GUI.o GUIDlg.o StdAfx.o $(RES)
+LIBS =  -L"C:/GTK/LIB" -mwindows  
+INCS =  -I"C:/GTK/INCLUDE"  -I"C:/GTK/INCLUDE/GTK-2.0"  -I"C:/GTK/INCLUDE/GLIB-2.0"  -I"C:/GTK/INCLUDE/PANGO-1.0"  -I"C:/GTK/INCLUDE/CAIRO"  -I"C:/GTK/INCLUDE/ATK-1.0"  -I"C:/GTK/INCLUDE/GTKGLEXT-1.0"  -I"C:/GTK/LIB/GTK-2.0/INCLUDE"  -I"C:/GTK/LIB/GLIB-2.0/INCLUDE"  -I"C:/GTK/LIB/GTKGLEXT-1.0/INCLUDE"  -I"C:/GTK/INCLUDE/LIBGLADE-2.0"  -I"C:/GTK/INCLUDE/LIBXML2" 
+CXXINCS =  -I"C:/GTK/INCLUDE"  -I"C:/GTK/INCLUDE/GTK-2.0"  -I"C:/GTK/INCLUDE/GLIB-2.0"  -I"C:/GTK/INCLUDE/PANGO-1.0"  -I"C:/GTK/INCLUDE/CAIRO"  -I"C:/GTK/INCLUDE/ATK-1.0"  -I"C:/GTK/INCLUDE/GTKGLEXT-1.0"  -I"C:/GTK/LIB/GTK-2.0/INCLUDE"  -I"C:/GTK/LIB/GLIB-2.0/INCLUDE"  -I"C:/GTK/LIB/GTKGLEXT-1.0/INCLUDE"  -I"C:/GTK/INCLUDE/LIBGLADE-2.0"  -I"C:/GTK/INCLUDE/LIBXML2" 
+BIN  = GUI.exe
+CXXFLAGS = $(CXXINCS) -D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_WINDOWS -D_AFXDLL -D_MBCS 
+CFLAGS = $(INCS) -D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_WINDOWS -D_AFXDLL -D_MBCS 
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before GUI.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "GUI.exe" $(LIBS)
+
+GUI.o: GUI.cpp
+	$(CPP) -c GUI.cpp -o GUI.o $(CXXFLAGS)
+
+GUIDlg.o: GUIDlg.cpp
+	$(CPP) -c GUIDlg.cpp -o GUIDlg.o $(CXXFLAGS)
+
+StdAfx.o: StdAfx.cpp
+	$(CPP) -c StdAfx.cpp -o StdAfx.o $(CXXFLAGS)
+
+GUI_private.res: GUI_private.rc GUI.rc 
+	$(WINDRES) -i GUI_private.rc --input-format=rc -o GUI_private.res -O coff 

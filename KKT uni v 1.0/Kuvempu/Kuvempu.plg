@@ -1,0 +1,126 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Kuvempu - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "F:\DOCUME~1\SUDHEE~1.000\LOCALS~1\Temp\RSP37A.bat" with contents
+[
+@echo off
+echo. >"hlp\Kuvempu.hm"
+echo // Commands (ID_* and IDM_*) >>"hlp\Kuvempu.hm"
+makehm ID_,HID_,0x10000 IDM_,HIDM_,0x10000 resource.h >>"hlp\Kuvempu.hm"
+echo. >>"hlp\Kuvempu.hm"
+echo // Prompts (IDP_*) >>"hlp\Kuvempu.hm"
+makehm IDP_,HIDP_,0x30000 resource.h >>"hlp\Kuvempu.hm"
+echo. >>"hlp\Kuvempu.hm"
+echo // Resources (IDR_*) >>"hlp\Kuvempu.hm"
+makehm IDR_,HIDR_,0x20000 resource.h >>"hlp\Kuvempu.hm"
+echo. >>"hlp\Kuvempu.hm"
+echo // Dialogs (IDD_*) >>"hlp\Kuvempu.hm"
+makehm IDD_,HIDD_,0x20000 resource.h >>"hlp\Kuvempu.hm"
+echo. >>"hlp\Kuvempu.hm"
+echo // Frame Controls (IDW_*) >>"hlp\Kuvempu.hm"
+makehm IDW_,HIDW_,0x50000 resource.h >>"hlp\Kuvempu.hm"
+]
+Creating command line "F:\DOCUME~1\SUDHEE~1.000\LOCALS~1\Temp\RSP37A.bat"
+Creating temporary file "F:\DOCUME~1\SUDHEE~1.000\LOCALS~1\Temp\RSP37B.bat" with contents
+[
+@echo off
+start /wait hcw /C /E /M "hlp\Kuvempu.hpj"
+if errorlevel 1 goto :Error
+if not exist "hlp\Kuvempu.hlp" goto :Error
+copy "hlp\Kuvempu.hlp" .\..\KuvempuEXE
+goto :done
+:Error
+echo hlp\Kuvempu.hpj(1) : error:
+type "hlp\Kuvempu.log"
+:done
+]
+Creating command line "F:\DOCUME~1\SUDHEE~1.000\LOCALS~1\Temp\RSP37B.bat"
+Creating command line "rc.exe /l 0x409 /fo"Debug/Kuvempu.res" /d "_DEBUG" /d "_AFXDLL" "I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\Kuvempu.rc"" 
+Making help include file...
+Making help file...
+hlp\Kuvempu.hpj(1) : error:
+Microsoft (R) Help Compiler
+HCRTF 4.03.0002
+Copyright (c) Microsoft Corp 1990 - 1995. All rights reserved.
+kuvempu.hpj
+    HC5011: Error: kuvempu.hpj : 
+ Cannot open the file "D:\Program Files\Microsoft Visual Studio\VC98\MFC\include\afxhelp.hm."
+Creating temporary file "F:\DOCUME~1\SUDHEE~1.000\LOCALS~1\Temp\RSP37C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/Kuvempu.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\AlreadyExist.cpp"
+"I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\BCMenu.cpp"
+"I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\BmpButton.cpp"
+"I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\CauveryHelp.cpp"
+"I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\HemavathiHelp.cpp"
+"I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\Kuvempu.cpp"
+"I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\KuvempuDlg.cpp"
+"I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\NetravathiHelp.cpp"
+"I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\SharavathiHelp.cpp"
+"I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\sinstance.cpp"
+"I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\SystemTray.cpp"
+"I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\TungaHelp.cpp"
+]
+Creating command line "cl.exe @F:\DOCUME~1\SUDHEE~1.000\LOCALS~1\Temp\RSP37C.tmp" 
+Creating temporary file "F:\DOCUME~1\SUDHEE~1.000\LOCALS~1\Temp\RSP37D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/Kuvempu.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\StdAfx.cpp"
+]
+Creating command line "cl.exe @F:\DOCUME~1\SUDHEE~1.000\LOCALS~1\Temp\RSP37D.tmp" 
+Creating temporary file "F:\DOCUME~1\SUDHEE~1.000\LOCALS~1\Temp\RSP37E.tmp" with contents
+[
+..\KuvempuEXE\*.lib shell32.lib  user32.lib /nologo /subsystem:windows /incremental:yes /pdb:"..\KuvempuEXE/Kuvempu.pdb" /debug /machine:I386 /out:"..\KuvempuEXE/Kuvempu.exe" /pdbtype:sept 
+.\Debug\AlreadyExist.obj
+.\Debug\BCMenu.obj
+.\Debug\BmpButton.obj
+.\Debug\CauveryHelp.obj
+.\Debug\HemavathiHelp.obj
+.\Debug\Kuvempu.obj
+.\Debug\KuvempuDlg.obj
+.\Debug\NetravathiHelp.obj
+.\Debug\SharavathiHelp.obj
+.\Debug\sinstance.obj
+.\Debug\StdAfx.obj
+.\Debug\SystemTray.obj
+.\Debug\TungaHelp.obj
+.\Debug\Kuvempu.res
+]
+Creating command line "link.exe @F:\DOCUME~1\SUDHEE~1.000\LOCALS~1\Temp\RSP37E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AlreadyExist.cpp
+BCMenu.cpp
+BmpButton.cpp
+CauveryHelp.cpp
+HemavathiHelp.cpp
+Kuvempu.cpp
+KuvempuDlg.cpp
+I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\KuvempuDlg.cpp(297) : warning C4010: single-line comment contains line-continuation character
+I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\KuvempuDlg.cpp(298) : warning C4010: single-line comment contains line-continuation character
+I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\KuvempuDlg.cpp(1012) : warning C4010: single-line comment contains line-continuation character
+I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\KuvempuDlg.cpp(990) : warning C4101: 'dwType' : unreferenced local variable
+I:\kannada\ASCII\WINDOWS\Dev\Kuvempu\KuvempuDlg.cpp(989) : warning C4101: 'bOsVersionInfoEx' : unreferenced local variable
+NetravathiHelp.cpp
+SharavathiHelp.cpp
+sinstance.cpp
+SystemTray.cpp
+TungaHelp.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Kuvempu.exe - 2 error(s), 5 warning(s)
+</pre>
+</body>
+</html>

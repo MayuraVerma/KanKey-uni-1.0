@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KanKey", "KanKey.vcxproj", "{C966689A-D718-49AE-B1EF-E3D7EE31C797}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		KanKey|Win32 = KanKey|Win32
+		Kshema|Win32 = Kshema|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C966689A-D718-49AE-B1EF-E3D7EE31C797}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C966689A-D718-49AE-B1EF-E3D7EE31C797}.Debug|Win32.Build.0 = Debug|Win32
+		{C966689A-D718-49AE-B1EF-E3D7EE31C797}.KanKey|Win32.ActiveCfg = KanKey|Win32
+		{C966689A-D718-49AE-B1EF-E3D7EE31C797}.KanKey|Win32.Build.0 = KanKey|Win32
+		{C966689A-D718-49AE-B1EF-E3D7EE31C797}.Kshema|Win32.ActiveCfg = Kshema|Win32
+		{C966689A-D718-49AE-B1EF-E3D7EE31C797}.Kshema|Win32.Build.0 = Kshema|Win32
+		{C966689A-D718-49AE-B1EF-E3D7EE31C797}.Release|Win32.ActiveCfg = Release|Win32
+		{C966689A-D718-49AE-B1EF-E3D7EE31C797}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

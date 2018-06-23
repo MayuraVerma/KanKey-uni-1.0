@@ -1,0 +1,7 @@
+; KanUniOT.def : Declares the module parameters for the DLL.
+
+LIBRARY      "KanUniOT"
+DESCRIPTION  'KanUniOT Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

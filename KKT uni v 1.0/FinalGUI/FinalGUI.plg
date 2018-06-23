@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FinalGUI - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/FinalGUI.res" /d "_DEBUG" /d "_AFXDLL" "H:\KKT_SRC_UNICODE\FinalGUI\FinalGUI.rc"" 
+Creating temporary file "D:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPA0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/FinalGUI.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\KKT_SRC_UNICODE\FinalGUI\About.cpp"
+"H:\KKT_SRC_UNICODE\FinalGUI\FinalGUI.cpp"
+"H:\KKT_SRC_UNICODE\FinalGUI\FinalGUIDlg.cpp"
+"H:\KKT_SRC_UNICODE\FinalGUI\Help.cpp"
+"H:\KKT_SRC_UNICODE\FinalGUI\image.cpp"
+"H:\KKT_SRC_UNICODE\FinalGUI\Language.cpp"
+"H:\KKT_SRC_UNICODE\FinalGUI\Layout.cpp"
+"H:\KKT_SRC_UNICODE\FinalGUI\Menu_Cust.cpp"
+"H:\KKT_SRC_UNICODE\FinalGUI\picture.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPA0.tmp" 
+Creating temporary file "D:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPA1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/FinalGUI.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\KKT_SRC_UNICODE\FinalGUI\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPA1.tmp" 
+Creating temporary file "D:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPA2.tmp" with contents
+[
+..\output\*.lib /nologo /subsystem:windows /incremental:yes /pdb:"..\output/Sample.pdb" /debug /machine:I386 /out:"..\output\Sample.exe" /pdbtype:sept 
+.\Debug\About.obj
+.\Debug\FinalGUI.obj
+.\Debug\FinalGUIDlg.obj
+.\Debug\Help.obj
+.\Debug\image.obj
+.\Debug\Language.obj
+.\Debug\Layout.obj
+.\Debug\Menu_Cust.obj
+.\Debug\picture.obj
+.\Debug\StdAfx.obj
+.\Debug\FinalGUI.res
+]
+Creating command line "link.exe @D:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPA2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+About.cpp
+FinalGUI.cpp
+FinalGUIDlg.cpp
+Help.cpp
+image.cpp
+Language.cpp
+Layout.cpp
+Menu_Cust.cpp
+picture.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Sample.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

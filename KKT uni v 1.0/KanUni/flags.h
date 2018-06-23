@@ -1,0 +1,33 @@
+
+int n_back = -1;
+int found = 0;
+int q_bit  = 0;
+int f_bit = 0;
+int s_bit = 0;
+int p_bit = 0;
+int g_bit = 0;
+int c_bit = 0;
+int o_bit = 0;
+int x_bit = 0;
+int so_bit = 0;
+//int X_bit  = 0;
+int b_bit = 0;
+int u_bit  = 0;
+int ei_bit = 0;
+int ipressed = 0;
+int space_bit = 0;
+int j_bit = 0;
+int first_o = 0;
+int derg_bit = 1;
+int	derg_count ;
+int spec_kgun = 0;
+int spec_kgun_val;
+int slash_bit = 0;
+static int i_flag ;
+
+char previous_0 = NULL;
+char previous_1 = NULL;
+char last_consonant = NULL;
+WPARAM lastglyph = NULL;
+int save_i = 0;
+static int o_count  = 0;

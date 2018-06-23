@@ -1,0 +1,28 @@
+# Microsoft Developer Studio Generated Dependency File, included by GUI.mak
+
+.\GUI.cpp : \
+	".\GUI.h"\
+	".\GUIDlg.h"\
+	
+
+.\GUI.rc : \
+	".\res\GUI.ico"\
+	".\res\GUI.rc2"\
+	".\res\icon2.ico"\
+	".\res\Keybrd02.ico"\
+	
+
+.\GUIDlg.cpp : \
+	"..\cauvery\cauvery.h"\
+	"..\hemavathi\hemavathi.h"\
+	"..\netravathi\netravathi.h"\
+	"..\sharavathi\sharavathi.h"\
+	".\GUI.h"\
+	".\GUIDlg.h"\
+	".\mainfrm.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	"d:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
