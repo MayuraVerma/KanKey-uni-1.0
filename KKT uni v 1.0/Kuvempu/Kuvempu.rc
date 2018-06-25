@@ -116,15 +116,15 @@ IDR_MAINFRAME           ICON    DISCARDABLE     "res\\icon3.ico"
 
 IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 314, 164
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "About Kuvempu Kannada Thantramsha"
+CAPTION "About KanForge"
 FONT 8, "MS Reference Sans Serif"
 BEGIN
-    LTEXT           "Kuvempu Kannada Thantramsha Version 2.0",IDC_STATIC,85,
+    LTEXT           "KanForge Version 2.0",IDC_STATIC,85,
                     14,174,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2010",IDC_STATIC,132,90,77,8
     DEFPUSHBUTTON   "OK",IDOK,127,143,76,14,WS_GROUP
-    CTEXT           "Kannada University , HAMPI",IDC_STATIC,92,70,215,10
-    LTEXT           "Kannada University , HAMPI",IDC_STATIC,204,98,96,10
+    CTEXT           "Kannada  , HAMPI",IDC_STATIC,92,70,215,10
+    LTEXT           "Kannada  , HAMPI",IDC_STATIC,204,98,96,10
     LTEXT           "kuvempusoft@gmail.com",IDC_STATIC,166,25,84,11
     LTEXT           "www.kannadauniversity.org",IDC_STATIC,204,126,94,10
     LTEXT           "kannadauniversity@gmail.com",IDC_STATIC,204,112,103,9
